@@ -1,0 +1,36 @@
+Goal: 
+    create a analog clock purely in html, css, js.
+
+
+calcuate clock rotations 
+
+hour: 
+    12 hours = 360 degree
+    1 hour = 360/12 = 30 degree
+
+    so for h hours
+    h = 30h
+
+    but on hour rotation there is the impact of mins and second's key impact is negilible because of too small. 
+
+    1 hour = 60 mins
+    60 mins = 30 degree
+    1 min = 30/60 = 1/2 degree
+    so for m mins
+    m = m/2 degree
+
+    thus the total rotation will be 
+    = 30h + m/2 degrees
+
+
+min: 
+    60min = 360 degree
+    1 min = 360/60
+    m = 6m degree
+
+sec: 
+    60 sec = 360 degree
+    1 sec = 360/60
+    s = 6s degree
+
+
